@@ -3,11 +3,13 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -69,12 +71,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 25%;
+  border: 5px double pink;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -85,8 +87,9 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: pink;
+  color: black;
+  font-style: italic;
 }
 .card {
   margin: 30px;
@@ -173,6 +176,7 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
+      flex-direction: row;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
