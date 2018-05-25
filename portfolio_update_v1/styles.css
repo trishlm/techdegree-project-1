@@ -113,14 +113,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #fFb6c0;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #550f9d;
 }
 
 footer {
@@ -206,5 +206,3 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
